@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-style: none;
+}
+
+table {
+    border: #b2b2b2 1px solid;
+  }
+  .dia1 {
+    border: black 1px solid;
+    font-size: 20px;
+    color: red;
+  }
+  .Hora1 {
+    border: black 1px solid;
+    color: red;
+  }
+  .dia2 {
+    border: black 1px solid;
+    font-size: 20px;
+    color: aquamarine;
+  }
+  .Hora2 {
+    border: black 1px solid;
+    color: aquamarine;
+  }
+
+  th {
+    border: black 1px solid;
+    font-size: 30px;
+  }
+
+  header{
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .inicio{
+    margin-top: 20px;
+  }
+
+  .horarios{
+    margin-top: 20px;
+  }
+
+  .servicios{
+    margin-top: 20px;
+  }
+
+  .contacto{
+    margin-top: 20px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 345px;
+    background-color: rgb(70, 68, 68);
+    padding: 20px 0px 20px 0px;
+  }
+
+  footer p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .formulario-contacto{
+    border: black 1px solid;
+    margin-top: 40px;
+    width: 50%;
+  }
+
+.navbar{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+li{
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+   display: flex;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
